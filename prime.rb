@@ -1,7 +1,7 @@
-# require'benchmark'
+require'benchmark'
 require 'pry'
 
-# puts Benchmark.measure{
+puts Benchmark.measure{
 
 def prime?(n)
 
@@ -13,7 +13,8 @@ def prime?(n)
   end
 end
 
-binding.pry
+}
+# binding.pry
 
 # def prime?(n)
 #   if n <= 1
