@@ -4,7 +4,7 @@ require 'pry'
 # puts Benchmark.measure{
 
 def prime?(n)
-  binding.pry
+
   if n < 2
     return false
   else
@@ -13,7 +13,7 @@ def prime?(n)
   end
 end
 
-
+binding.pry
 
 # def prime?(n)
 #   if n <= 1
@@ -25,3 +25,4 @@ end
 #   end
 # end
 # }
+a
