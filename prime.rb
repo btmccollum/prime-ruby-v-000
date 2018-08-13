@@ -16,7 +16,7 @@ def prime?(n)
 
 # binding.pry
 
-def prime?(n)
+# def prime?(n)
   if n <= 1
     return false
   else
