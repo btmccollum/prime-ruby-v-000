@@ -1,4 +1,5 @@
 require'benchmark'
+require'pry'
 
 puts Benchmark.measure{
 
@@ -8,6 +9,7 @@ def prime?(n)
   else
     (2.upto(n/2)).each { |x| n % x == 0 }
     return true
+  binding.pry
   end
 end
 
