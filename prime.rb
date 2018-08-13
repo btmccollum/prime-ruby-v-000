@@ -8,7 +8,7 @@ def prime?(n)
   if n < 2
     return false
   else
-    (2.upto(n/2)).each { |x| n % x == 0 }
+    (2.upto(n/2)).each { return false if |x| n % x == 0 }
     return true
   end
 end
