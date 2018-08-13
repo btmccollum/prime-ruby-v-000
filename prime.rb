@@ -6,7 +6,6 @@ require'pry'
 def prime?(n)
   if n < 2
     return false
-    binding.pry
   else
     (2.upto(n/2)).each { |x| n % x == 0 }
     return true
