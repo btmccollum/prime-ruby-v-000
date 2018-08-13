@@ -1,7 +1,7 @@
 require'benchmark'
 require'pry'
 
-puts Benchmark.measure{
+# puts Benchmark.measure{
 
 def prime?(n)
   if n < 2
@@ -24,4 +24,4 @@ end
 #     true
 #   end
 # end
-}
+# }
